@@ -1,6 +1,6 @@
 {
     "name":  "pip-services-microfrontends-node",
-    "version":  "1.2.0",
+    "version":  "1.0.0",
     "registry": "pipdevs",
-    "build": 17
+    "build": 0
 }
