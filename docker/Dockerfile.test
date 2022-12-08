@@ -35,5 +35,4 @@ RUN npm install
 # Copy entire project
 COPY . .
 
-# Remove npmrc file because env variable NPM_TOKEN is set for travis projects
-RUN rm -f ./.npmrc
+CMD [ "npm", "test" ]
